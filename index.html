@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#09071b" />
+  <meta name="description" content="Enter Aetherion: The Creator's Legacy, a 3D anime RPG adventure." />
+  <title>Aetherion: The Creator's Legacy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">✦</span> AETHERION</a>
+    <nav aria-label="Main navigation">
+      <a href="#adventure">Adventure</a>
+      <a href="#features">Features</a>
+      <a href="#worlds">Worlds</a>
+    </nav>
+    <a class="top-play" href="#adventure">ENTER WORLD</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image-wrap">
+        <img class="hero-image" src="assets/aetherion-logo-banner.png" alt="Aetherion: The Creator's Legacy fantasy game logo featuring Kael, Lyra, Aurex and a crystal dragon" />
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">A NEW LEGEND BEGINS</p>
+        <h1>Your destiny is waiting<br /><span beyond the twelve realms.</span></h1>
+        <p class="intro">Explore mysterious worlds, master Aether, forge powerful bonds and discover the truth behind creation.</p>
+        <a class="primary-button" href="#adventure">EXPLORE AETHERION <span>➜</span></a>
+        <div class="hero-meta"><span>✧ SINGLE-PLAYER RPG</span><span>✧ FIRST / THIRD PERSON</span><span>✧ FANTASY ADVENTURE</span></div>
+      </div>
+    </section>
+
+    <section class="section adventure" id="adventure">
+      <div class="section-heading">
+        <p class="eyebrow">THE FIRST JOURNEY</p>
+        <h2>Begin in <span>Elaris Village</span></h2>
+        <p>Take your first steps as Kael Ardyn, the First Guardian chosen by the Creator.</p>
+      </div>
+      <div class="game-panel">
+        <div class="game-screen" id="gameScreen">
+          <div class="game-placeholder" id="gamePlaceholder">
+            <div class="portal">✧</div>
+            <p class="eyebrow">ELARIS VILLAGE</p>
+            <h3>Your adventure starts here.</h3>
+            <p>The 3D world prototype is ready to be connected here.</p>
+            <button class="primary-button" id="launchGame">LAUNCH 3D PROTOTYPE <span>➜</span></button>
+          </div>
+          <div id="gameMount" class="game-mount" aria-label="3D game view"></div>
+        </div>
+        <div class="game-info">
+          <div><span class="info-label">PLAYER</span><strong>Kael Ardyn</strong></div>
+          <div><span class="info-label">TITLE</span><strong>The First Guardian</strong></div>
+          <div><span class="info-label">STARTING WORLD</span><strong>Elaris Village</strong></div>
+        </div>
+      </div>
+      <p class="note">Prototype note: this is an early browser demo. The full story, character models, quests and combat systems will be added as development continues.</p>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading"><p class="eyebrow">FORGE YOUR LEGACY</p><h2>Power is only <span>the beginning.</span></h2></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⚔</div><h3>Master Your Abilities</h3><p>Train, unlock skills and grow your Aether power through meaningful challenges.</p></article>
+        <article class="feature-card"><div class="feature-icon">✧</div><h3>Build True Bonds</h3><p>Travel with companions and discover the strength that comes from trust and teamwork.</p></article>
+        <article class="feature-card"><div class="feature-icon">◇</div><h3>Explore Vast Realms</h3><p>Journey through the twelve realms, ancient places and worlds beyond the known dimensions.</p></article>
+      </div>
+    </section>
+
+    <section class="section worlds" id="worlds">
+      <div class="section-heading"><p class="eyebrow">A UNIVERSE TO DISCOVER</p><h2>Twelve realms. <span>Countless stories.</span></h2><p>Every world holds a mystery, a challenge and someone worth protecting.</p></div>
+      <div class="world-strip"><div class="world-tile"><span>01</span><strong>Elaris</strong><small>The First Village</small></div><div class="world-tile"><span>02</span><strong>Varkor</strong><small>The Kingdom Under Siege</small></div><div class="world-tile"><span>03</span><strong>Outer Expanse</strong><small>Beyond the Realms</small></div><div class="world-tile locked"><span>✦</span><strong>More Worlds</strong><small>Await discovery</small></div></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">✦</span> AETHERION</a><p>THE CREATOR'S LEGACY</p><small>Explore • Fight • Evolve • Unlock the Truth</small></footer>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
